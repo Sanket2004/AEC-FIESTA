@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,21 +13,23 @@
 	<link rel="stylesheet" href="style.css">
 
 	<!-- JQuery CDN link -->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
 	<!-- Navigation start -->
 	<nav>
-		<img src="img/logo.svg" class="logo" alt="">
+		<img src="img/aec.svg" class="logo" alt="">
 
 		<div class="navigation">
 			<ul>
 				<i id="menu-close" class="fas fa-times"></i>
 				<li><a href="index.html" class="active">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="blog.html">Blog</a></li>
-				<li><a href="courses.html">Courses</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="blog.html">Memories</a></li>
+				<li><a href="courses.html">Sponsors</a></li>
+				<li><a href="contact.html">Team</a></li>
 			</ul>
 
 			<img src="img/menu.png" id="menu-btn" alt="">
@@ -38,22 +41,22 @@
 	<!-- Hero section starts from here -->
 	<section id="home">
 		<h2>
-			Enhance Your Future With TechEduca
+			FIESTA 2K24
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ipsum laboriosam architecto tempora explicabo ratione pariatur accusantium consequatur sed odit?
+			Techno-Cultural Fest
 		</p>
-		<div class="btn">
+		<!-- <div class="btn">
 			<a href="#" class="blue">Learn More</a>
 			<a href="#" class="yellow">Visit Courses</a>
-		</div>
+		</div> -->
 	</section>
 	<!-- Hero section ends from here -->
 
 
 	<!-- Features section starts from here -->
 	<section id="features">
-		<h1>Awesome Features</h1>
+		<h1>About Fiesta</h1>
 		<p>Replenish man have thing gathering lights yielding shall you</p>
 
 		<div class="fea-base">
@@ -336,7 +339,8 @@
 
 		<div class="copyright">
 			<p>
-				Copyright @ 2022 All rights reserved | This template is made by <a href="https://atulcodex.com" target="_blank">atulcodex</a>
+				Copyright @ 2022 All rights reserved | This template is made by <a href="https://atulcodex.com"
+					target="_blank">atulcodex</a>
 			</p>
 			<div class="pro-links">
 				<i class="fab fa-facebook"></i>
@@ -349,14 +353,15 @@
 
 	<script>
 		// Show menu links on burger click
-		$('#menu-btn').click(function(){
+		$('#menu-btn').click(function () {
 			$('nav .navigation ul').addClass('active')
 		});
 
 		// Hide navbar on click function
-		$('#menu-close').click(function(){
+		$('#menu-close').click(function () {
 			$('nav .navigation ul').removeClass('active')
 		});
 	</script>
 </body>
+
 </html>
